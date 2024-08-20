@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+} */
+
+body {
+  color: white;
+  background-color: #3c4c62;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(2, 57, 223);
+}
+
+/* .grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+} */
+
+/* .itemNotes {
+  grid-column: 3;
+  grid-row: 2 / span 3;
+}
+
+.itemNotesField {
+  grid-column: 4;
+  grid-row: 2 / span 3;
+} */
+
+/* .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #34607b;
+  border-radius: 4px;
+}
+
+.MuiInputBase-input {
+  height: 1px;
+  color: white;
+} */
